@@ -1,0 +1,1 @@
+Server settings for [tradefurniturecompany.co.uk](https://www.tradefurniturecompany.co.uk) (Magento 2).

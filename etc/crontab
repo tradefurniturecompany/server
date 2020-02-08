@@ -1,0 +1,20 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+
+# For details see man 4 crontabs
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name  command to be executed
+
+# 2020-01-27 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+@daily tradefurniturecompany.co.uk sudo certbot renew && sudo service nginx restart
+# 2018-10-12 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# A crontab should contain a newline at the end: https://serverfault.com/a/230407
+
