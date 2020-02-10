@@ -1,0 +1,5 @@
+# at 14:00 remove basic auth so they can do test orders
+#0 14 * * * bash /root/nginx-staging-auth.sh site-wide-open
+# at 14:20 lock the staging site down again
+#20 14 * * * bash /root/nginx-staging-auth.sh protected
+

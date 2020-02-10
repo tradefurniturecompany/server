@@ -1,0 +1,1 @@
+0 1 * * * bash /var/www/vhosts/staging.tradefurniturecompany.co.uk/database_backups/db_backup.sh
