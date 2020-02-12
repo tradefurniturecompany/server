@@ -1,7 +1,0 @@
-
-#~ MAGENTO START 6fb2510e1e92ed765254918edaf78d68
-* * * * * /usr/bin/php /var/www/vhosts/tradefurniturecompany.co.uk/htdocs/bin/magento cron:run 2>&1 | grep -v "Ran jobs by schedule" >> /var/www/vhosts/tradefurniturecompany.co.uk/htdocs/var/log/magento.cron.log
-* * * * * /usr/bin/php /var/www/vhosts/tradefurniturecompany.co.uk/htdocs/update/cron.php >> /var/www/vhosts/tradefurniturecompany.co.uk/htdocs/var/log/update.cron.log
-* * * * * /usr/bin/php /var/www/vhosts/tradefurniturecompany.co.uk/htdocs/bin/magento setup:cron:run >> /var/www/vhosts/tradefurniturecompany.co.uk/htdocs/var/log/setup.cron.log
-#~ MAGENTO END 6fb2510e1e92ed765254918edaf78d68
-
