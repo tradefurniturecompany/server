@@ -4,10 +4,9 @@ The server's version: `CentOS Linux release 7.6.1810 (Core)` (via `cat /etc/redh
 ## Useful commands:
 ### Restart a service
 ```                                
+systemctl restart elasticsearch
 systemctl restart nginx
 systemctl restart php-fpm
-systemctl restart rabbitmq-server
-systemctl restart elasticsearch
 systemctl restart rabbitmq-server  
 ```       
 
