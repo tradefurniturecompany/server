@@ -1,5 +1,5 @@
 Server settings for [tradefurniturecompany.co.uk](https://www.tradefurniturecompany.co.uk) (Magento 2).  
-The server's version: `CentOS Linux release 7.6.1810 (Core)` (via `cat /etc/redhat-release`).
+The server's version: `CentOS Linux release 7.9.2009 (Core)` (via `cat /etc/redhat-release`).
 
 ## Useful commands:
 ### Restart a service
