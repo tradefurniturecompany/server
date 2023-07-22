@@ -120,5 +120,5 @@ root	ALL=(ALL) 	ALL
 #includedir /etc/sudoers.d
 %admin    ALL=(ALL)    ALL
 
-# 2020-01-27 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-01-27 Dmitrii Fediuk https://upwork.com/fl/mage2pro
 tradefurniturecompany.co.uk ALL=(ALL) NOPASSWD: ALL
