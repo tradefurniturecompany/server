@@ -3,7 +3,8 @@ The server's version: `CentOS Linux release 7.9.2009 (Core)` (via `cat /etc/redh
 
 ## Useful commands:
 ### Restart a service
-```                                
+```                      
+systemctl restart crond          
 systemctl restart elasticsearch
 systemctl restart nginx
 systemctl restart php-fpm
