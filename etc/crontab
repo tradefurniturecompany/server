@@ -2,17 +2,17 @@ SHELL=/bin/bash
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 MAILTO=root
 
-# 2020-01-27 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2020-01-27 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 @daily tradefurniturecompany.co.uk sudo certbot renew && sudo service nginx restart
 
-# 2020-02-12 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2020-02-12 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 * * * * * tradefurniturecompany.co.uk php /var/www/vhosts/tradefurniturecompany.co.uk/htdocs/bin/magento cron:run 2>&1 | grep -v "Ran jobs by schedule" >> /var/www/vhosts/tradefurniturecompany.co.uk/htdocs/var/log/magento.cron.log
-# 2023-07-22 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2023-07-22 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "«There are no commands defined in the "setup:cron" namespace» on `bin/magento setup:cron:run`":
 # https://github.com/mage2pro/core/issues/245
 # 2) "The `bin/magento setup:cron:run` command and the `update/cron.php` script have been removed from Magento ≥ 2.3.7":
 # https://mage2.pro/t/6374
 
-# 2018-10-12 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2018-10-12 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # A crontab should contain a newline at the end: https://serverfault.com/a/230407
 
